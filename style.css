@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px){
     body {
-        background-image: url(img/wireframe/iPhone\ SE\ -\ 1.png);
+        background-image: linear-gradient(166deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%);
     }
     
     .logo {
@@ -16,11 +16,18 @@
         font-size: 18pt;
         line-height: 24px;
     }
+
+    p {
+        font-size: 10pt;
+        line-height: 14px;
+        letter-spacing: 0.25px;
+    }
 }
 
 @media screen and (min-width: 768px){
     body {
-        background-image: url(img/wireframe/iPad\ Pro\ 11_\ -\ 1.png)
+        background-image: url(img/wireframe/iPad\ Pro\ 11_\ -\ 1.png);
+        padding-left: 9px;
     }
 
     .logo {
@@ -35,6 +42,42 @@
     h1 {
         font-size: 48pt;
         line-height: 64px;
+        letter-spacing: -0.25px;
+    }
+
+    p {
+        font-size: 24pt;
+        letter-spacing: -0.15px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (min-width: 960px){
+    body {
+        background-image: url(img/wireframe/Wireframe\ -\ 1.png);
+        background-size: cover;
+        padding: 0px 4px;
+    }
+
+    .nav {
+        margin-top: 40px !important;
+    }
+
+    .logo {
+        width: 95px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 38pt;
+        letter-spacing: 0.25px;
+        line-height: 54px
+    }
+
+    p {
+        font-size: 22pt;
+        letter-spacing: -0.5px;
+        line-height: 28px
     }
 }
 
@@ -43,9 +86,9 @@ h1 {
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Josefin Sans';
-    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+p {
+    font-family: 'Changa';
+    font-weight: 500;
 }
 
 button {
