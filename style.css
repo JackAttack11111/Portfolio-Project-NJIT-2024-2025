@@ -26,8 +26,8 @@
 
 @media screen and (min-width: 768px){
     body {
-        background-image: url(img/wireframe/iPad\ Pro\ 11_\ -\ 1.png);
         padding-left: 9px;
+        background-image: linear-gradient(166deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%);
     }
 
     .logo {
@@ -54,9 +54,8 @@
 
 @media screen and (min-width: 960px){
     body {
-        background-image: url(img/wireframe/Wireframe\ -\ 1.png);
-        background-size: cover;
         padding: 0px 4px;
+        background-image: linear-gradient( 148deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%)
     }
 
     .nav {
@@ -79,6 +78,26 @@
         letter-spacing: -0.5px;
         line-height: 28px
     }
+
+    .about {
+        background-color: #F1FAEE;
+        padding: 40px;
+    }
+}
+
+.spacing {
+    padding-bottom: 200px;
+}
+
+.link {
+    font-weight: 600;
+    color: white;
+    font-size: 16pt;
+
+}
+
+.active {
+    color: #E63946;
 }
 
 h1 {
