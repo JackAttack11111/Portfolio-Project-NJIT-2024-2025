@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px){
     body {
         background-image: linear-gradient(166deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%);
+        height: 932px;
     }
     
     .logo {
@@ -26,8 +27,8 @@
 
 @media screen and (min-width: 768px){
     body {
-        padding-left: 9px;
         background-image: linear-gradient(166deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%);
+        height: 1024px;
     }
 
     .logo {
@@ -54,8 +55,8 @@
 
 @media screen and (min-width: 960px){
     body {
-        padding: 0px 4px;
-        background-image: linear-gradient( 148deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%)
+        background-image: linear-gradient( 148deg, #A8DADC 0%, #7DA7B3 20%, #1D3557 87%);
+        height: 1080px;
     }
 
     .nav {
@@ -83,6 +84,11 @@
         background-color: #F1FAEE;
         padding: 40px;
     }
+}
+
+
+.about {
+    background-color: #F1FAEE;
 }
 
 .spacing {

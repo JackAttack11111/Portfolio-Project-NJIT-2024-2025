@@ -14,16 +14,31 @@
     <body>
         <div class="container-fluid text-center">
             <div class="row ps-lg-4 mt-4 mt-md-5 px-md-4 nav">
-                <div class="col text-start"><img class="logo" src="img/logo/Union.png"></div>
-                <div class="col d-lg-none text-end"><button><img class="mobile-menu" src="img/icon/menu-mobile.png"></button></div>
+                <div class="col text-start"><img onclick="home()" class="logo" src="img/logo/Union.png"></div>
+                <div class="col d-lg-none text-end"><button><img class="mobile-menu" src="img/icon/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"></button></div>
                 <div class="col d-none d-lg-block"></div>
-                <div class="col-lg-4 d-none d-lg-block"></div>
+                <div class="col-lg-2 d-none d-lg-block"></div>
                 <div class="col link active m-auto d-none d-lg-block">HOME</div>
-                <div class="col link m-auto d-none d-lg-block">ABOUT</div>
-                <div class="col link m-auto d-none d-lg-block">EDUCATION</div>
-                <div class="col link m-auto d-none d-lg-block">WORK</div>
-                <div class="col link m-auto d-none d-lg-block">INTERESTS</div>
-                <div class="col link m-auto d-none d-lg-block">CONTACT</div>
+                <div class="col link m-auto d-none d-lg-block"><a href="index.html#about">ABOUT</a></div>
+                <div class="col link m-auto d-none d-lg-block"><a href="index.html#education">EDUCATION</a></div>
+                <div class="col link m-auto d-none d-lg-block"><a href="index.html#work">WORK</a></div>
+                <div class="col link m-auto d-none d-lg-block"><a href="index.html#interests">INTERESTS</a></div>
+                <div class="col link m-auto d-none d-lg-block"><a href="contact.html">CONTACT</a></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center mt-3">
+                <div class="col col-md-8 col-lg-8 mb-3 mt-5">
+                    <label for="contactEmail" class="form-label"><h1>Email Address</h1></label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com">
+                </div>
+                <div class="w-100"></div>
+                <div class="col col-md-8 col-lg-8">
+                <div class="mb-3">
+                    <label for="contactText" class="form-label"><h1>Your Message</h1></label>
+                    <textarea class="form-control" id="contactText" rows="3"></textarea>
+                </div>
+            </div>
             </div>
         </div>
         <script src="main.js"></script>

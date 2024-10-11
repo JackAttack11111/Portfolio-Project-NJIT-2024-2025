@@ -14,20 +14,20 @@
     <body>
         <div class="container-fluid text-center">
             <div class="row ps-lg-4 mt-4 mt-md-5 px-md-4 nav">
-                <div class="col text-start"><img class="logo" src="img/logo/Union.png"></div>
-                <div class="col d-lg-none text-end"><button><img class="mobile-menu" src="img/icon/menu-mobile.png"></button></div>
+                <div class="col text-start"><img onclick="home()" class="logo" src="img/logo/Union.png"></div>
+                <div class="col d-lg-none text-end"><button onclick="contact()"><img class="mobile-menu" src="img/icon/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"></button></div>
                 <div class="col d-none d-lg-block"></div>
-                <div class="col-lg-4 d-none d-lg-block"></div>
+                <div class="col-lg-2 d-none d-lg-block"></div>
                 <div class="col link active m-auto d-none d-lg-block">HOME</div>
                 <div class="col link m-auto d-none d-lg-block"><a href="#about">ABOUT</a></div>
                 <div class="col link m-auto d-none d-lg-block"><a href="#education">EDUCATION</a></div>
                 <div class="col link m-auto d-none d-lg-block"><a href="#work">WORK</a></div>
                 <div class="col link m-auto d-none d-lg-block"><a href="#interests">INTERESTS</a></div>
-                <div class="col link m-auto d-none d-lg-block">CONTACT</div>
+                <div class="col link m-auto d-none d-lg-block"><a href="contact.html">CONTACT</a></div>
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row mt-3 px-md-4 mt-lg-5">
+            <div class="row mt-3 mt-md-5 px-md-4 mt-lg-5">
                 <div class="col-7 col-lg-6"><h1>
                     Hey, I'm Jack
                     and I'm a 
@@ -53,7 +53,7 @@
                 <div class="col"><h1>About</h1></div>
                 <div class="w-100"></div>
                 <div class="col"></div>
-                <div class="col-6"><p>I started to learn HTML when I was given
+                <div class="col-lg-6"><p>I started to learn HTML when I was given
                     a book about coding in 6th grade and made some simple websites
                     that would only run on my laptop at the time. By the time I reach
                     high school, I hadn't touched any code until the Web Design program
@@ -68,7 +68,7 @@
             <div class="row text-start mt-5">
                 <div id="education" class="col pt-4"><h1>Education</h1></div>
                 <div class="w-100"></div>
-                <div class="col"><p>In 2021, I graduated from Howell Middle School South
+                <div class="col-lg"><p>In 2021, I graduated from Howell Middle School South
                     and entered Freehold Township High School. I began doing Automotive as my elective
                     but then expanded to doing Marching Band and Web Design. This would be my 4th year
                     in Marching Band and my 3rd year in Web Design.
@@ -80,7 +80,7 @@
             <div id="work" class="col pt-4"><h1>Work</h1></div>
             <div class="w-100"></div>
             <div class="col"></div>
-            <div class="col"><p>I have only had one job in the past which is to run the game stands at the 
+            <div class="col-lg"><p>I have only had one job in the past which is to run the game stands at the 
                 New Jersey boardwalk, Jenkinsons South Beach Arcade. I had quit 2 years in because I felt 
                 like I could do better in the work industry and that it would be better if I worked closer 
                 to home. I am currently in the process of being hired at a bar and grill near me.</p>
@@ -90,12 +90,13 @@
             <div class="row text-start mt-5">
                 <div id="interests" class="col pt-4"><h1>Interests</h1></div>
                 <div class="w-100"></div>
-                <div class="col"><p>I have many interests in my life but the main ones I have a focus on are 
+                <div class="col-lg"><p>I have many interests in my life but the main ones I have a focus on are 
                     game development, music, biomedical engineering, data collecting, and more. If it has to 
                     do with science, I will most likely be immediately interested in it.</p>
                 </div>
                 <div class="col"></div>
             </div>
             </div>
+        <script src="main.js"></script>
     </body>
 </html>
