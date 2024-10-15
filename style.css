@@ -121,3 +121,13 @@ button {
     padding: 0px;
     border: transparent;
 }
+
+.email {
+    padding: 20px;
+    background-color: #E63946;
+    color: #F1FAEE;
+    font-weight: 600;
+    font-size: 16pt;
+    letter-spacing: 1px;
+    width: 100%;
+}
