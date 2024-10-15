@@ -23,6 +23,15 @@
         line-height: 14px;
         letter-spacing: 0.25px;
     }
+
+    img.fths {
+        height: auto;
+        width: 200px;
+    }
+    
+    img.jenk {
+        width: 300px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -84,8 +93,24 @@
         background-color: #F1FAEE;
         padding: 40px;
     }
+
+    .jenk {
+        margin-top: -100px;
+        height: 350px;
+        width: 500px;
+        margin-left: -100px;
+    }
+
+    .fths {
+        height: 350px;
+        margin-top: -100px;
+    }
 }
 
+
+.fths {
+    height: 350px;
+}
 
 .about {
     background-color: #F1FAEE;
@@ -130,4 +155,16 @@ button {
     font-size: 16pt;
     letter-spacing: 1px;
     width: 100%;
+}
+
+.email:hover {
+    background-color: #b61624;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E63946;
 }
